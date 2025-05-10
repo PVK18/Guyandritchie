@@ -1,0 +1,52 @@
+h1 {
+    color: white;
+    font-size: 2.5em;
+}
+
+h2 {
+    color: #444;
+    font-size: 2em;
+}
+
+.custom-text {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    line-height: 1.5;
+    font-size: 25px;
+    max-width: 100%;
+    color: black;
+    padding: 20px;
+}
+
+.custom-footer {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    line-height: 1.5;
+    font-size: 15px;
+    max-width: 100%;
+    color: white;
+    padding: 10px;
+}
+
+.history-title {
+    font-family: Arial, sans-serif;
+    text-align: left;
+    line-height: 1.5;
+    font-size: 30px;
+    max-width: 100%;
+    color: black;
+    padding: 0px 0px 0px 0px;
+    font-weight: bold;
+}
+
+.history-text {
+    flex-direction: row;
+    font-family: Arial, sans-serif;
+    text-align: left;
+    line-height: 1.5;
+    font-size: 20px;
+    max-width: 100%;
+    color: black;
+    padding: 0px 0px 0px 0px;
+    padding-right: 10px;
+}

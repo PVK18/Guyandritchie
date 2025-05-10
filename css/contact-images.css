@@ -1,0 +1,22 @@
+.contact-gallery {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.img-contact {
+    flex: 1 1 calc(33.333% - 10px);
+    min-width: 250px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    vertical-align: middle;
+}
+
+/*Анимационные эффекты*/
+.img-contact:hover {
+    transform: scale(1.01); /*Процент увеличения*/
+    transition: transform 0.3s ease;
+}
