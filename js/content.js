@@ -20,8 +20,11 @@ const pageContent = {
         ]
     },
     'contacts': {
-        title: 'Контакты',
-        text: '<div class="custom-text">Этот сайт был создан в 2023 году как учебный проект по веб-разработке. </div>',
-        images: ['12.jpg', 'h2131istory2.jpg']
+        title: ' ',
+        text: '<div class="custom-text">Этот сайт был создан в 2025году как учебный проект по веб-разработке. </div>',
+        table: [
+            ['Электронная почта', 'kirill316@bk.ru'],
+            ['Электронная почта', 'kirill316@bk.ru']
+        ]
     }
 };

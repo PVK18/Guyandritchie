@@ -1,0 +1,38 @@
+/* Стили таблицы */
+.contacts-table {
+    width: 100%;
+    max-width: 600px;
+    margin: 25px auto;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+}
+
+.contacts-table td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+}
+
+.contacts-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.contacts-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+.contacts-table td:first-child {
+    font-weight: bold;
+    width: 40%;
+    color: #4CAF50;
+}
+
+/* Адаптивность таблицы */
+@media (max-width: 600px) {
+    .contacts-table {
+        font-size: 14px;
+    }
+    
+    .contacts-table td {
+        padding: 8px 10px;
+    }
+}

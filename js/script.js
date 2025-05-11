@@ -51,11 +51,25 @@ document.addEventListener('DOMContentLoaded', function() {
         }
         html += `<div class="${currentPage}-text">${content.text}</div>`;
         
+    // Добавляем таблицу только для страницы контактов
+    if (currentPage === 'contacts' && content.table) {
+        html += `
+        <table class="contacts-table">
+            ${content.table.map(row => `
+                <tr>
+                    <td>${row[0]}</td>
+                    <td>${row[1]}</td>
+                </tr>
+            `).join('')}
+        </table>
+        `;
+    }
+
         if (content.images && content.images.length > 0) {
             const galleryClass = `${currentPage}-gallery`;
             const imageClass = `img-${currentPage}`;
             
-            html += `<div class="${galleryClass}">`;
+            html += `<div class=contacts-table"${galleryClass}">`;
             content.images.forEach(img => {
                 const imgData = typeof img === 'object' ? img : { src: img, alt: img.split('.')[0] };
                 html += `<img src="images/${imgData.src}" alt="${imgData.alt}" class="${imageClass}">`;
