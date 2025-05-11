@@ -21,10 +21,11 @@ const pageContent = {
     },
     'contacts': {
         title: ' ',
-        text: '<div class="custom-text">Этот сайт был создан в 2025году как учебный проект по веб-разработке. </div>',
+        text: '<div class="custom-text">Этот сайт был создан в 2025 году как учебный проект по веб-разработке. </div>',
         table: [
-            ['Электронная почта', 'kirill316@bk.ru'],
-            ['Электронная почта', 'kirill316@bk.ru']
+            ['Telegram канал про Гая и Ричи', 't.me/guyandritchie'],
+            ['Telegram разработчика', 't.me/pvk18'],
+            ['Электронная почта разработчика', 'kirill316@bk.ru']
         ]
     }
 };

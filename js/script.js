@@ -52,7 +52,7 @@ document.addEventListener('DOMContentLoaded', function() {
         html += `<div class="${currentPage}-text">${content.text}</div>`;
         
     // Добавляем таблицу только для страницы контактов
-    if (currentPage === 'contacts' && content.table) {
+        if (currentPage === 'contacts' && content.table) {
         html += `
         <table class="contacts-table">
             ${content.table.map(row => `
@@ -69,7 +69,7 @@ document.addEventListener('DOMContentLoaded', function() {
             const galleryClass = `${currentPage}-gallery`;
             const imageClass = `img-${currentPage}`;
             
-            html += `<div class=contacts-table"${galleryClass}">`;
+            html += `<div class="${galleryClass}">`;
             content.images.forEach(img => {
                 const imgData = typeof img === 'object' ? img : { src: img, alt: img.split('.')[0] };
                 html += `<img src="images/${imgData.src}" alt="${imgData.alt}" class="${imageClass}">`;
